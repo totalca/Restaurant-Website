@@ -5,24 +5,15 @@
   background: #DFCE86;
 }
 
-/* 
-  ##Device = Desktops
-  ##Screen = 1281px to higher resolution desktops
-*/
-
-@media (min-width: 1281px) {
-  
-   body {
-    font-family: 'Gloria Hallelujah', cursive;
-    color: #DFCE86;
-    background: url(asset/image/body-bcg.jpg) no-repeat center center fixed ;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-       }
-  
-}
+body {
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #DFCE86;
+  background: url(asset/image/body-bcg.jpg) no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+    }
 
 /* 
   ##Device = Laptops, Desktops
@@ -54,7 +45,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 75% cover;
+    background-size: cover;
       }
 }
 
@@ -71,7 +62,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 75% cover;
+    background-size: cover;
       }
 }
 
@@ -88,7 +79,7 @@
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: 50% cover;
+    background-size: cover;
       }
 }
 
