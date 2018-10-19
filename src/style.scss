@@ -5,16 +5,108 @@
   background: #DFCE86;
 }
 
-body {
-  font-family: 'Gloria Hallelujah', cursive;
-  color: #DFCE86;
-  background-color: #9B6844;
-  background: url(asset/image/body-bcg.jpg);
-  background-position: center;
-  background-size: auto;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  position: relative;
+/* 
+  ##Device = Desktops
+  ##Screen = 1281px to higher resolution desktops
+*/
+
+@media (min-width: 1281px) {
+  
+   body {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #DFCE86;
+    background: url(asset/image/body-bcg.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+       }
+  
+}
+
+/* 
+  ##Device = Laptops, Desktops
+  ##Screen = B/w 1025px to 1280px
+*/
+
+@media (min-width: 1025px) and (max-width: 1280px) {
+  body {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #DFCE86;
+    background: url(asset/image/body-bcg.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+      }
+}
+
+/* 
+  ##Device = Tablets, Ipads (portrait)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  body {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #DFCE86;
+    background: url(asset/image/body-bcg.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 75% cover;
+      }
+}
+
+/* 
+  ##Device = Tablets, Ipads (landscape)
+  ##Screen = B/w 768px to 1024px
+*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  body {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #DFCE86;
+    background: url(asset/image/body-bcg.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 75% cover;
+      }
+}
+
+/* 
+  ##Device = Low Resolution Tablets, Mobiles (Landscape)
+  ##Screen = B/w 481px to 767px
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  body {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #DFCE86;
+    background: url(asset/image/body-bcg.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 50% cover;
+      }
+}
+
+/* 
+  ##Device = Most of the Smartphones Mobiles (Portrait)
+  ##Screen = B/w 320px to 479px
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  body {
+    font-family: 'Gloria Hallelujah', cursive;
+    color: #DFCE86;
+    background: url(asset/image/body-bcg.jpg) no-repeat center center fixed ;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 50% cover;
+      }
 }
 
 .primary-color {
